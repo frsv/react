@@ -942,6 +942,7 @@ ReactDOMComponent.Mixin = {
     transaction,
     isCustomComponentTag
   ) {
+    console.info(lastProp)
     var propKey;
     var styleName;
     var styleUpdates;
